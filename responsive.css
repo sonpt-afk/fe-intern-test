@@ -1,0 +1,344 @@
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  body {
+    max-width: 428px;
+  }
+  .navbar {
+    max-width: 428px;
+    padding: unset;
+  }
+  .navbar-main {
+    height: 75px;
+    box-shadow: 0px 2px 20px 0px rgba(26, 17, 20, 0.1);
+    padding: unset;
+    width: unset;
+    max-width: 428px;
+    position: relative;
+  }
+  .navbar-main-brand-container {
+    left: 20px;
+    top: 13px;
+    bottom: 15px;
+    width: 65px;
+    height: 55px;
+  }
+  .navbar-main-brand-text {
+    font-size: 3rem;
+    color: #000;
+    padding: unset;
+  }
+  .bar-icon-container {
+    position: absolute;
+    right: 20px;
+    top: 24px;
+  }
+  .content {
+    padding: unset;
+  }
+  .content-main-ads-img {
+    display: flex;
+    max-width: 428px;
+
+    flex-direction: column-reverse;
+    gap: unset;
+  }
+  .content-heading-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 147px;
+    width: 100%;
+  }
+  .content-head-and-subhead-container {
+    margin-bottom: 47px;
+    margin-top: 62px;
+  }
+
+  .content-heading {
+    font-size: 3.6rem;
+    line-height: 47px;
+  }
+  .content {
+    padding: unset;
+    width: 100%;
+  }
+  .content-main-ads-img {
+    height: 755px;
+  }
+  .content-subheading-container {
+    margin-top: 10px;
+    margin-left: 9px;
+    gap: 47px;
+  }
+  .content-main-ads-img-right {
+    max-width: 428px;
+    height: 364.25px;
+  }
+  .content-main-ads-img-right img {
+    max-width: 428px;
+    height: 364.25px;
+  }
+  .content-main-ads-img-left {
+    max-width: 428px;
+    height: 369px;
+    position: relative;
+    top: 0px;
+    flex-direction: column;
+    padding-right: 61px;
+  }
+  .content-main-ads-img-right-cirle {
+    width: 50px;
+    height: 50px;
+    left: 41%;
+    bottom: 208px;
+  }
+  .play-btn {
+    font-size: 20px;
+    left: 19px;
+    top: 16px;
+  }
+  .content-main-ads-img-left-desciption {
+    font-size: 2.4rem;
+    line-height: 35px;
+    top: 104px;
+    margin-left: 60px;
+  }
+  .content-main-ads-img-left-container {
+    order: 2;
+  }
+  .content-main-ads-img-left-about {
+    width: 147px;
+    height: 36px;
+    order: 1;
+    margin-top: 60px;
+    margin-left: 141px;
+  }
+  .contact-btn {
+    bottom: 60px;
+    width: 183px;
+    height: 48px;
+    padding: 13px 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 32px;
+  }
+  .content-details-heading {
+    font-size: 3rem;
+    margin-left: 39px;
+    width: 350px;
+    line-height: 47px;
+  }
+  .content-details-container {
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 20px;
+  }
+  .content-details-container-item {
+    width: 388px;
+    height: 215px;
+  }
+  .content-details-container-item-number-head {
+    margin-top: 30px;
+  }
+  .content-details-container-item-subhead {
+    margin-top: 15px;
+    font-size: 1.9rem;
+  }
+  .content-details-container-item-desciption {
+    text-align: center;
+    margin-top: 10px;
+    width: 328px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 30px;
+    height: 52px;
+  }
+  .content-gallery-item {
+    flex: 1 1 46%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-position: center;
+  }
+  .content-gallery-item:last-child {
+    flex: 1 1 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 90%;
+  }
+  .content-gallery-item-first {
+    height: 230px;
+    margin-top: 25px;
+  }
+  .content-gallery-item-second {
+    height: 280px;
+  }
+  .content-gallery-third {
+    height: 356px;
+  }
+  .content-gallery-title {
+    margin-top: 30px;
+    margin-left: 71px;
+    margin-right: 41px;
+    font-family: "Poppins", sans-serif;
+    width: 313px;
+    height: 94px;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 47px;
+    text-transform: capitalize;
+  }
+  .content-gallery-title-firstline {
+    padding: 0 22px;
+    font-size: 3.6rem;
+  }
+  .content-gallery-title-description {
+    margin-top: 20px;
+  }
+  .content-gallery-contact {
+    margin-top: 30px;
+    margin-left: 103px;
+    margin-right: 102px;
+  }
+  .content-team {
+    margin-top: 60px;
+  }
+  .content-team-heading {
+    max-width: 428px;
+  }
+  .content-team-container {
+    margin-top: 30px;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .content-team-item {
+    width: 388px;
+    height: 390px;
+  }
+  .content-team-item-avatar {
+    margin-left: 129px;
+  }
+  .content-team-item-description {
+    width: 328px;
+    height: 52px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .content-benefits {
+    display: none;
+  }
+  .content-subscribe {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .content-subscribe-brand-logo {
+    width: 100%;
+    color: var(--Text---Kid-toys, #1a1114);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 55px; /* 183.333% */
+    text-transform: uppercase;
+  }
+  .content-subscribe-ads-text {
+    color: var(--toy-kid-1-a-1114, #1a1114);
+    text-align: center;
+    width: 100%;
+    /* Sansita - Open/Title - Open sans */
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 22px; /* 146.667% */
+    margin-top: 30px;
+  }
+  .content-subscribe-form {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .content-subscribe-input-field {
+    width: 242px;
+    height: 50px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid var(--Toy-kid, #ec80a0);
+    background: #fff;
+  }
+  .content-subscribe-input-field-placeholder {
+    width: 144px;
+    height: 19px;
+    margin-top: 18px;
+  }
+  .content-subscribe-btn {
+    width: 146px;
+    height: 50px;
+    border-radius: 0px 10px 10px 0px;
+    background: var(--Toy-kid, #ec80a0);
+    padding: 13px 20px 15px 20px;
+  }
+  .content-subscribe-btn-text {
+    width: 106px;
+    height: 22px;
+  }
+
+  .divider-line {
+    display: none;
+  }
+
+  .content-footer-info-row-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .content-footer-info-row-item-title {
+    color: var(--toy-kid-1-a-1114, #1a1114);
+    display: flex;
+    font-family: "Poppins";
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    text-transform: capitalize;
+    margin-left: 20px;
+  }
+  .content-footer-info-row-item-title {
+    margin-bottom: 20px;
+  }
+  .content-footer-info-row-item-container {
+    gap: 21px;
+  }
+  .content-footer-info-row-item-container-icon-location-block {
+    margin-left: 20px;
+  }
+  .content-footer-info-row-item-container-icon-mail-block {
+    margin-left: 20px;
+  }
+  .content-footer-info-row-item-container-icon-headphone-block {
+    margin-left: 20px;
+  }
+  .content-footer-info-row-item-phone {
+    margin-top: 16px;
+  }
+  .content-footer-info-row-item-email {
+    margin-top: 16px;
+  }
+  .content-footer-info-row-item-container-icon-headphone {
+    top: 21px;
+  }
+  .content-footer-info-row-item-container-icon-mail {
+    top: 21px;
+  }
+  .content-footer-infos-list {
+    margin-left: 20px;
+  }
+  .content-footer-links-list {
+    margin-left: 20px;
+  }
+  .content-footer-socials-icon-list-item-icons {
+    margin-left: 20px;
+  }
+  .divider-line-footer {
+    display: block;
+    width: 388px;
+    margin-left: 20px;
+  }
+  .end {
+    margin-top: 15px;
+  }
+}
